@@ -34,11 +34,15 @@ void comp_number (int* num) {
     }
 }
 void input(int* user) {
-     int i;
+     int i, j;
      scanf("%d", &i);
      while (isnumbercorrect(i)==0) { 
          printf("Число некорректно. Попробуй еще раз.\n");
          scanf("%d", &i);
+     }
+     for (j = 3; j>=0; j--) {
+         user[j] = i%10;
+         i /= 10;
      }
 }
 int isnumbercorrect (int i) {
