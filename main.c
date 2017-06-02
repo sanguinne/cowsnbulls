@@ -37,7 +37,6 @@ void comp_number (int* num) {
             }
             else if(j==0) {
                 num[i] = n;
-                printf("%d", num[i]);
                 i++;
             }
         }
