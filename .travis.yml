@@ -1,0 +1,7 @@
+language: c
+compiler: gcc
+script: 
+- make
+- bin/test
+- bin/main
+install: true
