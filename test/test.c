@@ -27,3 +27,7 @@ CTEST(check_suite, check_incorrect_num)
 {
     ASSERT_EQUAL(0, isnumbercorrect(41232342));
 }
+CTEST(check_suite, check_incorrect_num_negative)
+{
+	ASSERT_EQUAL(0, isnumbercorrect(-5));
+}
