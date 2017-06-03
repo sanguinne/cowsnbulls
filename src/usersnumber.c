@@ -1,4 +1,8 @@
-#include <usersnumber.h>
+#include "usersnumber.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <string.h>
 
 int isnumbercorrect (int i) {
      int arr[10] = {0};

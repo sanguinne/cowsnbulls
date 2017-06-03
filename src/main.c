@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-
+#include "usersnumber.h"
 void input(int* user);
 void comp_number (int* num);
 void cowsnbulls_counter (int* computer, int* user, int n);
