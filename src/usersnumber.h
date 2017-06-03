@@ -1,0 +1,1 @@
+int isnumbercorrect (int i);
